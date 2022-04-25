@@ -179,7 +179,7 @@ vaporeonEvolve.onanimationend = () => {
 
 function locatedToFairy () {
     tekst.innerHTML = "Leveling Eevee while having a Fairy type move will cause Eevee to evolve into Sylveon!";
-    schermTwee.style.backgroundImage = "url('/images/fairy.png')"; 
+    schermTwee.style.backgroundImage = "url('../images/fairy.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     sylveonEvolve.classList.add("toSylveon");
     placesToTrain.style.display = "none";
@@ -195,7 +195,7 @@ sylveonEvolve.onanimationend = () => {
 
 function locatedToNight () {
     tekst.innerHTML = "Leveling Eevee at night with full happiness causes Eevee to evolve into Umbreon!";
-    schermTwee.style.backgroundImage = "url('/images/night.png')"; 
+    schermTwee.style.backgroundImage = "url('../images/night.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     umbreonEvolve.classList.add("toUmbreon");
     placesToTrain.style.display = "none";
@@ -211,7 +211,7 @@ umbreonEvolve.onanimationend = () => {
 
 function locatedToDay () {
     tekst.innerHTML = "Leveling Eevee during the day with full happiness causes Eevee to evolve into Espeon!";
-    schermTwee.style.backgroundImage = "url('/images/day.png')"; 
+    schermTwee.style.backgroundImage = "url('../images/day.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     espeonEvolve.classList.add("toEspeon");
     placesToTrain.style.display = "none";
@@ -227,7 +227,7 @@ espeonEvolve.onanimationend = () => {
 
 function locatedToMoss () {
     tekst.innerHTML = "Leveling Eevee near the Moss Rock causes Eevee to evolve into Leafeon!";
-    schermTwee.style.backgroundImage = "url('/images/moss.png')";
+    schermTwee.style.backgroundImage = "url('../images/moss.png')";
     eeveeEvolve.classList.add("evolveEevee");
     leafeonEvolve.classList.add("toLeafeon");
     placesToTrain.style.display = "none";
@@ -236,14 +236,14 @@ function locatedToMoss () {
 }
 
 leafeonEvolve.onanimationend = () => {
-    espeon.style.display = "block";
+    leafeon.style.display = "block";
     restart.style.display = "block";
     console.log("leafeon_evolved");
 }
 
 function locatedToSnow () {
     tekst.innerHTML = "Leveling Eevee near the Icy Rock causes Eevee to evolve into Glaceon!";
-    schermTwee.style.backgroundImage = "url('/images/snow.png')"; 
+    schermTwee.style.backgroundImage = "url('../images/snow.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     glaceonEvolve.classList.add("toGlaceon");
     placesToTrain.style.display = "none";
