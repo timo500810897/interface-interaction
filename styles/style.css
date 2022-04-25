@@ -22,7 +22,7 @@ html, body {
 
 body {
   background-color: #ffffff;
-  background-image: url("../images/eeveeBackground.jpg");
+  background-image: url("./images/eeveeBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
