@@ -22,7 +22,7 @@ html, body {
 
 body {
   background-color: #ffffff;
-  background-image: url("./images/eeveeBackground.jpg");
+  background-image: url("../images/eeveeBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -89,7 +89,7 @@ ul.schermBoven li{
 
 ul.schermBoven li.scherm1{
   /* display: none; */
-  background-image: url(/images/backgroundCatchEevee.png);
+  background-image: url(../images/backgroundCatchEevee.png);
   background-size: cover;
   overflow: hidden;
   height: 94%;
@@ -100,7 +100,7 @@ ul.schermBoven li.scherm2{
   display: none;
   height: 94%;
   width: 100%;
-  background-image: url(/images/mainMenuBackground.jpg);
+  background-image: url(../images/mainMenuBackground.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -194,7 +194,7 @@ section.schermOnder{
   margin: 0em 0em 2em 0em;
   flex: 1.8;
   background-color: #dfdfdf;
-  background-image: url(/images/eeveeBackgroundTouchscreen.jpg);
+  background-image: url(../images/eeveeBackgroundTouchscreen.jpg);
   background-position: 30%;
   background-size: cover;
   box-shadow: inset .4em .4em 0.05em #3c4042,
@@ -602,7 +602,7 @@ section.placesToTrain {
 }
 
 section.placesToTrain button.snow {
-  background-image: url('/images/snow.png');
+  background-image: url('../images/snow.png');
   background-size: cover;
   top: 15%;
   left: 20%;
@@ -610,7 +610,7 @@ section.placesToTrain button.snow {
 }
 
 section.placesToTrain button.moss {
-  background-image: url('/images/moss.png');
+  background-image: url('../images/moss.png');
   background-size: cover;
   top: 15%;
   left: 80%;
@@ -618,7 +618,7 @@ section.placesToTrain button.moss {
 }
 
 section.placesToTrain button.night {
-  background-image: url('/images/night.png');
+  background-image: url('../images/night.png');
   background-size: cover;
   top: 85%;
   left: 20%;
@@ -626,7 +626,7 @@ section.placesToTrain button.night {
 }
 
 section.placesToTrain button.day {
-  background-image: url('/images/day.png');
+  background-image: url('../images/day.png');
   background-size: cover;
   top: 85%;
   left: 80%;
@@ -634,7 +634,7 @@ section.placesToTrain button.day {
 }
 
 section.placesToTrain button.fairy {
-  background-image: url('/images/fairy.png');
+  background-image: url('../images/fairy.png');
   background-size: cover;
   top: 50%;
   left: 50%;
