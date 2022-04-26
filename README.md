@@ -208,9 +208,9 @@ Mijn startniveau is: Rood
   ### Dit was lastig/Is niet gelukt:
   Mooi maken van code (niet display: none x10), iets te weinig responsive naar mijn mening & on hover laat p zien
   
-  <img src="readme-images/Fout2.PNG" width="375px" alt="display:none fout">
-  <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="responsive fout">
-  <img src="readme-images/Fout1.PNG" width="375px" alt="on hover fout">
+  <img src="readme-images/Fout2.PNG" width="375px" alt="display:noneFout">
+  <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="responsiveFout">
+  <img src="readme-images/Fout1.PNG" width="375px" alt="onhoverFout">
 
 </details>
 
