@@ -110,14 +110,6 @@ Mijn startniveau is: Rood
   Custom properties toevoegen.
 
   #### oplossing:
-  Ik heb uiteindelijk gekozen niet gebruik te maken van custom properties aangezien ik niet veel kleuren vaak hergebruik en alles al een kleur had gegeven voordat ik af wist van custom properties. Echter weet ik voor volgende keer zeker dat ik het wel ga gebruiken aangezien het erg handig is
-  
-  
-  
-  ### Bevinding 4:
-  Custom properties toevoegen.
-
-  #### oplossing:
   Ik heb uiteindelijk gekozen niet gebruik te maken van custom properties aangezien ik niet veel kleuren vaak hergebruik en alles al een kleur had gegeven voordat ik af wist van custom properties. Echter weet ik voor volgende keer zeker dat ik het wel ga gebruiken aangezien het erg handig is.
   
   
