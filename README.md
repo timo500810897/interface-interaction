@@ -21,7 +21,7 @@ Mijn startniveau is: Rood
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - Ik wil mijn kennis van HTML en CSS opfrissen en meer leren efficiënter te werk te gaan.
+  - Ik wil mijn kennis van HTML en CSS opfrissen en efficiënter te werken.
   - JavaScript heb ik wel eens gebruikt voor eerdere lessen, echter ken ik hier erg weinig van dus wil ik hier meer van leren en het ook toepassen in mijn website.
  
 </details>
@@ -63,6 +63,14 @@ Mijn startniveau is: Rood
 
   #### oplossing:
   Door te proberen in combinatie met wat feedback is het gelukt door te krijgen hoe het werkt en het toe te passen.
+  
+  
+  
+  ### Bevinding 5:
+  Feedback Isabelle - Veel aandacht geven aan de transities, vooral bij het evolueren. De DS is een leuk idee en zorg dat alles goed zichtbaar blijft in het kleine scherm.
+
+  #### oplossing:
+  Onderzoek doen hoe pokemons evolueren in de game en dit zo goed mogelijk toepassen met CSS en JS.
 
 
 
@@ -129,7 +137,12 @@ Mijn startniveau is: Rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+   <img src="readme-images/Eindresultaat1.PNG" width="375px" alt="final ontwerp 1">
+   <img src="readme-images/Eindresultaat2.PNG" width="375px" alt="final ontwerp 2">
+   <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="final ontwerp 3">
+   <img src="readme-images/Eindresultaat4.PNG" width="375px" alt="final ontwerp 4">
+   <img src="readme-images/Eindresultaat5.PNG" width="375px" alt="final ontwerp 5">
+   <img src="readme-images/Eindresultaat6.PNG" width="375px" alt="final ontwerp 6">
 
 
   ### Dit ging goed/Heb ik geleerd: 
