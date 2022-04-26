@@ -199,18 +199,18 @@ Mijn startniveau is: Rood
   ### Dit ging goed/Heb ik geleerd: 
   Nieuw geleerd: ::after, ::before, box-shadow, :not, var loop & classList.add
   
-   <img src="readme-images/Leren1.PNG" width="375px" alt="leren 1">
-   <img src="readme-images/Leren2.PNG" width="375px" alt="leren 2">
-   <img src="readme-images/Leren3.PNG" width="375px" alt="leren 3">
-   <img src="readme-images/Leren4.PNG" width="375px" alt="leren 4">
-   <img src="readme-images/Leren5.PNG" width="375px" alt="leren 5">
+   <img src="readme-images/Leren1.png" width="375px" alt="leren 1">
+   <img src="readme-images/Leren2.png" width="375px" alt="leren 2">
+   <img src="readme-images/Leren3.png" width="375px" alt="leren 3">
+   <img src="readme-images/Leren4.png" width="375px" alt="leren 4">
+   <img src="readme-images/Leren5.png" width="375px" alt="leren 5">
 
   ### Dit was lastig/Is niet gelukt:
   Mooi maken van code (niet display: none x10), iets te weinig responsive naar mijn mening & on hover laat p zien
   
-  <img src="readme-images/Fout2.PNG" width="375px" alt="display:noneFout">
+  <img src="readme-images/Fout2.png" width="375px" alt="display:noneFout">
   <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="responsiveFout">
-  <img src="readme-images/Fout1.PNG" width="375px" alt="onhoverFout">
+  <img src="readme-images/Fout1.png" width="375px" alt="onhoverFout">
 
 </details>
 
