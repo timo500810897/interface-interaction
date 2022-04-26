@@ -158,19 +158,19 @@ Mijn startniveau is: Rood
   
   
     ### Bevinding 4:
-  -
+  Feedback Amber: Focus en hover toevoegen aan de knoppen.
   
   #### oplossing:
-  -
+  Ik heb een hover toegevoegd aan de knoppen op dezelfde manier als deze er uit zien in het spel. Hierbij wilde ik bij de focus eerst wat heel anders doen, echter paste verschillende versies niet mooi bij het design. Ik heb hierom gekozen om de focus state hetzelfde er uit te laten zien als de hover state aangezien het voor beide goed zichtbaar is doordat er verschil in kleur en dikte is.
   
   
   
   
     ### Bevinding 5:
-  -
+  Kies een taal, je gebruikt Engels en Nederlands
   
   #### oplossing:
-  -
+  Ik heb inderdaad een slechte tik om beide talen toe te passen aangezien ik sommige woorden beter vind passen dan de andere in het Engels en andersom. Ik heb erg veel plekken waar het anders is en heb nu niet de tijd meer om alles overal te veranderen. Ik sla het zeker op voor mijn volgende project vanaf het begin 1 taal te kiezen.
   
   
   
