@@ -1006,7 +1006,7 @@ section.knoppenLinks button.arrowkeys1::after{
 
 section.knoppenLinks button.arrowkeys2{
   position: absolute;
-  top: 50%;
+  top: 49%;
   background-color: #353535;
   border: none;
   border-radius: 0.3em;
