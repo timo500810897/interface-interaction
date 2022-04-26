@@ -40,7 +40,7 @@ section.backgroundBlender{
   top: 5%;
   transform: translate(-50%, -5%);
   font-family: pkmn_rbygscregular;
-  color: rgba(40, 145, 201, 1);
+  color: #2891c9;
   -webkit-text-stroke: 0.02em #40413C;
   position: relative;
   margin-top: auto;
@@ -51,7 +51,15 @@ section.backgroundBlender{
   max-width: 50%;
 }
 
+
+
+
+/******/
 /* DS */
+/******/
+
+
+
 
 article {
   left: 50%;
@@ -69,7 +77,16 @@ article {
               inset -.2em -.2em 0.05em #6e6e6e;
 }
 
+
+
+
+/***************/
 /* Bovenscherm */
+/***************/
+
+
+
+
 
 ul.schermBoven{
   display: flex;
@@ -89,7 +106,7 @@ ul.schermBoven li{
 
 ul.schermBoven li.scherm1{
   /* display: none; */
-  background-image: url(../images/backgroundCatchEevee.png);
+  background-image: url(../images/mainMenuBackground.jpg);
   background-size: cover;
   overflow: hidden;
   height: 94%;
@@ -100,7 +117,7 @@ ul.schermBoven li.scherm2{
   display: none;
   height: 94%;
   width: 100%;
-  background-image: url(../images/mainMenuBackground.jpg);
+  background-image: url(../images/backgroundCatchEevee.png);
   background-size: cover;
   background-position: center;
 }
@@ -170,7 +187,15 @@ ul.schermBoven img.eevee1.animatieStart {
   transform-origin: bottom center;
 }
 
+
+
+
+/***********/
 /* Devider */
+/***********/
+
+
+
 
 section.middenBalk{
   position: absolute;
@@ -187,7 +212,16 @@ section.middenBalk{
   z-index: 2;
 }
 
+
+
+
+/***************/
 /* Onderscherm */
+/***************/
+
+
+
+
 
 section.schermOnder{
   position: relative;
@@ -266,6 +300,12 @@ section.schermOnder .evolutionStones button.fireStone {
   transform: translate(-15%, -80%);
 }
 
+section.schermOnder .evolutionStones button.fireStone:hover, section.schermOnder .evolutionStones button.fireStone:focus{
+  border:rgba(175, 40, 40, 1) .2em solid;
+  background: #F8A9B1;
+  outline: none;
+}
+
 section.schermOnder .evolutionStones button.thunderStone {
   background: rgb(139, 103, 54);
   background: linear-gradient(0deg, rgba(139, 103, 54, 1) 0%, rgba(169, 119, 47, 1) 33%, rgba(201, 134, 38, 1) 63%, rgba(225, 152, 40, 1) 100%);
@@ -274,12 +314,24 @@ section.schermOnder .evolutionStones button.thunderStone {
   transform: translate(-50%, -20%);
 }
 
+section.schermOnder .evolutionStones button.thunderStone:hover, section.schermOnder .evolutionStones button.thunderStone:focus{
+  border:#e19828 .2em solid;
+  background: #ffd28f;
+  outline: none;
+}
+
 section.schermOnder .evolutionStones button.waterStone {
   background: rgb(65, 88, 112);
   background: linear-gradient(0deg, rgba(65, 88, 112, 1) 0%, rgba(56, 104, 136, 1) 33%, rgba(46, 121, 166, 1) 63%, rgba(40, 145, 201, 1) 100%);
   top: 80%;
   left: 85%;
   transform: translate(-85%, -80%);
+}
+
+section.schermOnder .evolutionStones button.waterStone:hover, section.schermOnder .evolutionStones button.waterStone:focus{
+  border:#415870 .2em solid;
+  background: #84a3c3;
+  outline: none;
 }
 
 @keyframes evolutionPart1 {
@@ -532,7 +584,7 @@ section.schermOnder .evolutionStones button img {
 }
 
 section.schermOnder .catchEevee{
-  background: rgb(79, 112, 64);
+  background: #4f7040;
   background: linear-gradient(0deg, rgba(79, 112, 64, 1) 0%, rgba(71, 129, 48, 1) 39%, rgba(72, 144, 40, 1) 60%, rgba(88, 175, 40, 1) 100%);
   position: absolute;
   border: .1em solid #303030;
@@ -558,6 +610,12 @@ section.schermOnder .catchEevee{
   transform: translate(-50%, -50%);
 }
 
+section.schermOnder .catchEevee:hover, section.schermOnder .catchEevee:focus{ 
+  border:#4f7040 .2em solid;
+  background: #8cb878;
+  outline: none;
+}
+
 section.schermOnder .menuButtons{
   display: none;
 }
@@ -570,15 +628,27 @@ section.schermOnder button.buttonLinksOnder {
   transform: translate(-20%, -50%);
 }
 
+section.schermOnder button.buttonLinksOnder:hover, section.schermOnder button.buttonLinksOnder:focus{ 
+border:#e19828 .2em solid;
+background: #ffd28f;
+outline: none;
+}
+
 section.schermOnder button.buttonRechtsOnder {
-  background: rgb(65, 88, 112);
+  background: #415870;
   background: linear-gradient(0deg, rgba(65, 88, 112, 1) 0%, rgba(56, 104, 136, 1) 33%, rgba(46, 121, 166, 1) 63%, rgba(40, 145, 201, 1) 100%);
   top: 50%;
   left: 80%;
   transform: translate(-80%, -50%);
 }
 
-section.placesToTrain button{
+section.schermOnder button.buttonRechtsOnder:hover, section.schermOnder button.buttonRechtsOnder:focus{
+  border:#415870 .2em solid;
+  background: #84a3c3;
+  outline: none;
+}
+
+section.placesToTrain button {
   position: absolute;
   border: .1em solid #303030;
   box-shadow: inset .1em .1em 0em #fff,
@@ -609,6 +679,11 @@ section.placesToTrain button.snow {
   transform: translate(-20%, -15%);
 }
 
+section.placesToTrain button.snow:hover, section.placesToTrain button.snow:focus {
+  outline: none;
+  border: solid .2em #3fbfff;
+}
+
 section.placesToTrain button.moss {
   background-image: url('../images/moss.png');
   background-size: cover;
@@ -617,28 +692,71 @@ section.placesToTrain button.moss {
   transform: translate(-80%, -15%);
 }
 
+section.placesToTrain button.moss:hover,
+section.placesToTrain button.moss:focus {
+  outline: none;
+  border: solid .2em #278a32;
+}
+
 section.placesToTrain button.night {
   background-image: url('../images/night.png');
+  background-size: cover;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+
+section.placesToTrain button.night:hover,
+section.placesToTrain button.night:focus {
+  outline: none;
+  border: solid .2em #3e1a47;
+}
+
+section.placesToTrain button.day {
+  background-image: url('../images/day.png');
+  background-size: cover;
+  top: 50%;
+  left: 80%;
+  transform: translate(-80%, -50%);
+}
+
+section.placesToTrain button.day:hover,
+section.placesToTrain button.day:focus {
+  outline: none;
+  border: solid .2em #ffef3f;
+}
+
+section.placesToTrain button.fairy {
+  background-image: url('../images/fairy.png');
   background-size: cover;
   top: 85%;
   left: 20%;
   transform: translate(-20%, -85%);
 }
 
-section.placesToTrain button.day {
-  background-image: url('../images/day.png');
-  background-size: cover;
-  top: 85%;
-  left: 80%;
-  transform: translate(-80%, -85%);
+section.placesToTrain button.fairy:hover,
+section.placesToTrain button.fairy:focus {
+  outline: none;
+  border: solid .2em #ff3fc9;
 }
 
-section.placesToTrain button.fairy {
-  background-image: url('../images/fairy.png');
-  background-size: cover;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+section.placesToTrain button.info{
+  width: 20%;
+  border-radius: 50%;
+  top: 85%;
+  left: 75%;
+  transform: translate(-75%, -85%);
+  color: white;
+  font-family: pkmn_rbygscregular;
+  font-weight: 600;
+  background: #4f7040;
+  background: linear-gradient(0deg, rgba(79, 112, 64, 1) 0%, rgba(71, 129, 48, 1) 39%, rgba(72, 144, 40, 1) 60%, rgba(88, 175, 40, 1) 100%);
+}
+
+section.placesToTrain button.info:hover, section.placesToTrain button.info:focus{
+  border:#4f7040 .2em solid;
+  background: #8cb878;
+  outline: none;
 }
 
 section.schermOnder button.restart {
@@ -669,7 +787,24 @@ section.schermOnder button.restart {
   display: none;
 }
 
+section.schermOnder button.restart:hover, section.schermOnder button.restart:focus{
+  border:rgba(175, 40, 40, 1) .2em solid;
+  background: #F8A9B1;
+  outline: none;
+}
+
+
+
+
+
+/***********/
 /* Knoppen */
+/***********/
+
+
+
+
+
 
 section.knoppenLinks{
   flex: .6;

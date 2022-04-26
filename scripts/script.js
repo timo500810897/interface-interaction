@@ -49,7 +49,15 @@ var vaporeonEvolve = document.querySelector('.vaporeonEvolving');
 // Restart
 var restart = document.querySelector('.restart');
 
+
+
+
+
 // Added events
+
+
+
+
 
 // Menu
 catchEevee.addEventListener("click", animatieStart);
@@ -68,7 +76,15 @@ snowLocation.addEventListener("click", locatedToSnow);
 // Restart
 restart.addEventListener("click", restartEvolution);
 
+
+
+
+
 // Eevee vang animatie
+
+
+
+
 
 function animatieStart() {
     pokeballAnimatie.classList.add("animatieStart");
@@ -85,7 +101,15 @@ pokeballAnimatie.onanimationend = () => {
     console.log("animation has ended");
 };
 
+
+
+
+
 // Menu keuzes
+
+
+
+
 
 function openTrainingScreen() {
     menuButtons.style.display = "none";
@@ -101,14 +125,24 @@ function showStones() {
     console.log("stones");
 };
 
+
+
+
+
 // Evolutions met stenen
 
+
+
+
+
 // Flareon
+
 
 function evolveToFlareon () {
     useFireStone.classList.add("fireStoneActive");
     thunderStone.style.display = "none";
     waterStone.style.display = "none";
+    schermTwee.style.backgroundImage = "url('../images/fire.png')";
     console.log("flareon");
 }
 
@@ -127,12 +161,15 @@ flareonEvolve.onanimationend = () => {
     console.log("flareon_evolved");
 }
 
+
 // Jolteon
+
 
 function evolveToJolteon () {
     useThunderStone.classList.add("thunderStoneActive");
     fireStone.style.display = "none";
     waterStone.style.display = "none";
+    schermTwee.style.backgroundImage = "url('../images/thunder.png')";
     console.log("jolteon");
 }
 
@@ -151,12 +188,15 @@ jolteonEvolve.onanimationend = () => {
     console.log("jolteon_evolved");
 }
 
+
 // Vaporeon
+
 
 function evolveToVaporeon () {
     useWaterStone.classList.add("waterStoneActive");
     fireStone.style.display = "none";
     thunderStone.style.display = "none";
+    schermTwee.style.backgroundImage = "url('../images/water.png')";
     console.log("vaporeon");
 }
 
@@ -175,7 +215,15 @@ vaporeonEvolve.onanimationend = () => {
     console.log("vaporeon_evolved");
 }
 
+
+
+
+
 // Locations
+
+
+
+
 
 function locatedToFairy () {
     tekst.innerHTML = "Leveling Eevee while having a Fairy type move will cause Eevee to evolve into Sylveon!";
@@ -257,7 +305,11 @@ glaceonEvolve.onanimationend = () => {
     console.log("glaceon_evolved");
 }
 
+
+
 // Restart knop
+
+
 
 function restartEvolution () {
     location.reload(); 
