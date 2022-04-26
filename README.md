@@ -88,15 +88,46 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Geen gebruik van p's in mijn website.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  De H1 nam te veel ruimte op bij sommige pagina's dus heb ik de H1 korter gemaakt en een informatie-knop toegevoegd waar door middel van p's is uitgelegd wat er gebeurd.
+  
+  <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="uitleg">
 
-
+  
 
   ### Bevinding 3:
-  ...
+  Meer gebruik maken van witruimte om makkelijker later terug te kunnen vinden.
+
+  #### oplossing:
+  Bij de tussenkopjes die ik al had extra aandacht gevraagd door de koppen te onsingelen met sterretjes en om het geheel heen witruimte toegevoegd.
+  
+  
+  
+  ### Bevinding 4:
+  Custom properties toevoegen.
+
+  #### oplossing:
+  Ik heb uiteindelijk gekozen niet gebruik te maken van custom properties aangezien ik niet veel kleuren vaak hergebruik en alles al een kleur had gegeven voordat ik af wist van custom properties. Echter weet ik voor volgende keer zeker dat ik het wel ga gebruiken aangezien het erg handig is
+  
+  
+  
+  ### Bevinding 4:
+  Custom properties toevoegen.
+
+  #### oplossing:
+  Ik heb uiteindelijk gekozen niet gebruik te maken van custom properties aangezien ik niet veel kleuren vaak hergebruik en alles al een kleur had gegeven voordat ik af wist van custom properties. Echter weet ik voor volgende keer zeker dat ik het wel ga gebruiken aangezien het erg handig is.
+  
+  
+  
+    ### Bevinding 5:
+  Feedback Amber: display:none komt heel vaak voor.
+
+  #### oplossing:
+  Ik heb in verband met mijn matige kennis van JS elke img apart een class gegeven ze zo los op te roepen en gemakkelijk kon toepassen wat ik wilde.
+  
+
 
 </details>
 
