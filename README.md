@@ -188,29 +188,29 @@ Mijn startniveau is: Rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-   <img src="readme-images/Eindresultaat1.PNG" width="375px" alt="final ontwerp 1">
-   <img src="readme-images/Eindresultaat2.PNG" width="375px" alt="final ontwerp 2">
-   <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="final ontwerp 3">
-   <img src="readme-images/Eindresultaat4.PNG" width="375px" alt="final ontwerp 4">
-   <img src="readme-images/Eindresultaat5.PNG" width="375px" alt="final ontwerp 5">
-   <img src="readme-images/Eindresultaat6.PNG" width="375px" alt="final ontwerp 6">
+   <img src="readme-images/Eindresultaat1.PNG" width="250px" alt="finalOntwerp1">
+   <img src="readme-images/Eindresultaat2.PNG" width="250px" alt="finalOntwerp2">
+   <img src="readme-images/Eindresultaat3.PNG" width="250px" alt="finalOntwerp3">
+   <img src="readme-images/Eindresultaat4.PNG" width="250px" alt="finalOntwerp4">
+   <img src="readme-images/Eindresultaat5.PNG" width="250px" alt="finalOntwerp5">
+   <img src="readme-images/Eindresultaat6.PNG" width="250px" alt="finalOntwerp6">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Nieuw geleerd: ::after, ::before, box-shadow, :not, var loop & classList.add
   
-   <img src="readme-images/Leren1.png" width="375px" alt="leren 1">
-   <img src="readme-images/Leren2.png" width="375px" alt="leren 2">
-   <img src="readme-images/Leren3.png" width="375px" alt="leren 3">
-   <img src="readme-images/Leren4.png" width="375px" alt="leren 4">
-   <img src="readme-images/Leren5.png" width="375px" alt="leren 5">
+   <img src="readme-images/Leren1.png" width="250px" alt="leren1">
+   <img src="readme-images/Leren2.png" width="250px" alt="leren2">
+   <img src="readme-images/Leren3.png" width="250px" alt="leren3">
+   <img src="readme-images/Leren4.png" width="250px" alt="leren4">
+   <img src="readme-images/Leren5.png" width="250px" alt="leren5">
 
   ### Dit was lastig/Is niet gelukt:
   Mooi maken van code (niet display: none x10), iets te weinig responsive naar mijn mening & on hover laat p zien
   
-  <img src="readme-images/Fout2.png" width="375px" alt="display:noneFout">
-  <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="responsiveFout">
-  <img src="readme-images/Fout1.png" width="375px" alt="onhoverFout">
+  <img src="readme-images/Fout2.png" width="250px" alt="display:noneFout">
+  <img src="readme-images/Eindresultaat3.PNG" width="250px" alt="responsiveFout">
+  <img src="readme-images/Fout1.png" width="250px" alt="onhoverFout">
 
 </details>
 
