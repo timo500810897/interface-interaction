@@ -22,6 +22,7 @@ Mijn startniveau is: Rood
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Ik wil mijn kennis van HTML en CSS opfrissen en efficiënter te werken.
+  - Blauwe piste helpen met coderen.
   - JavaScript heb ik wel eens gebruikt voor eerdere lessen, echter ken ik hier erg weinig van dus wil ik hier meer van leren en het ook toepassen in mijn website.
  
 </details>
@@ -139,23 +140,50 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Feedback Sanne: opacity: 0 gebruiken in plaats van display: none aangezien je het kan animeren.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Aangezien het hetzelfde doet en het erg veel veranderen is ga ik het zeker onthouden voor volgende keer, echter hebben andere punten nu voorrlang.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Opletten op contrast op de pagina.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Bij de p's heb ik gekozen voor wit op zwart voor een goed contrast en bij de H1 heb ik gekozen voor blauw op wit wat volgens de contrastmeter veel beter uit kwam dan de groen die ik eerst had.
 
 
+  
 
   ### Bevinding 3:
-  ...
+  Aanpassingen maken zodat de website ook goed werkende is op Github.
+  
+  #### oplossing:
+  URL's aangepast naar ../ waar nodig in de CSS en JS.
+  
+  
+  
+  
+    ### Bevinding 4:
+  -
+  
+  #### oplossing:
+  -
+  
+  
+  
+  
+    ### Bevinding 5:
+  -
+  
+  #### oplossing:
+  -
+  
+  
+  
+  
+  
 
 </details>
 
@@ -177,15 +205,21 @@ Mijn startniveau is: Rood
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Nieuw geleerd: ::after, ::before, box-shadow, :not, var loop & classList.add
+  
+   <img src="readme-images/Leren1.PNG" width="375px" alt="leren 1">
+   <img src="readme-images/Leren2.PNG" width="375px" alt="leren 2">
+   <img src="readme-images/Leren3.PNG" width="375px" alt="leren 3">
+   <img src="readme-images/Leren4.PNG" width="375px" alt="leren 4">
+   <img src="readme-images/Leren5.PNG" width="375px" alt="leren 5">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Mooi maken van code (niet display: none x10), iets te weinig responsive naar mijn mening & on hover laat p zien
+  
+  <img src="readme-images/Fout2.PNG" width="375px" alt="display:none fout">
+  <img src="readme-images/Eindresultaat3.PNG" width="375px" alt="responsive fout">
+  <img src="readme-images/Fout1.PNG" width="375px" alt="on hover fout">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -200,7 +234,8 @@ Mijn startniveau is: Rood
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://cssgradient.io/
-2. bron 2
-3. ...
+2. Rowin
+3. https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex?retiredLocale=nl
+4. https://stackoverflow.com/questions/9529327/change-the-value-of-h1-element-within-a-form-with-javascript
 
 </details>
