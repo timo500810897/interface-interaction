@@ -51,11 +51,18 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  -
+  Animeren in CSS was nieuw voor mij. Ik had nooit met keynotes gewerkt, enkel met transform:translate om items te verplaatsen.
 
   #### oplossing:
-  -
+  Door de les te volgen en zelf dingen uit te proberen heb ik de basics geleerd en het proberen toe te passen in de website.
 
+  
+  
+  ### Bevinding 4:
+  Als tip van Rowin ::before en ::after te gebruiken. Dit heb ik ook nooit eerder gebruikt.
+
+  #### oplossing:
+  Door te proberen in combinatie met wat feedback is het gelukt door te krijgen hoe het werkt en het toe te passen.
 
 
 
