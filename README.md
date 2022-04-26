@@ -1,21 +1,9 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
-## Jij
-
-### Ontwerper:
+## Ontwerper:
 Timo Smit
 
-#### Je startniveau:
+### Je startniveau:
 Mijn startniveau is: Rood
 
 
@@ -25,7 +13,7 @@ Mijn startniveau is: Rood
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>Ik heb gekozen om de Eeveelutions uit te werken in een website. Hierbij wil ik door middel van HTML, CSS en JavaScript een leuke manier bedenken om duidelijk te maken wat de evoluties zijn van Eevee. </summary>
 
   ### De eerste versie/schets:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
