@@ -16,7 +16,7 @@ Mijn startniveau is: Rood
   <summary>Ik heb gekozen om de Eeveelutions uit te werken in een website. Hierbij wil ik door middel van HTML, CSS en JavaScript een leuke manier bedenken om duidelijk te maken wat de evoluties zijn van Eevee. </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/eersteIdee.PNG" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/eersteIdee.PNG" width="575px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
