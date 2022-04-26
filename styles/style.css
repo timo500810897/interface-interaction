@@ -8,9 +8,9 @@ https://cssgradient.io/
 }
 
 @font-face {
-  font-family: 'pkmn_rbygscregular';
-  src: url('../pkmn_rbygsc-webfont.woff2') format('woff2'),
-       url('../pkmn_rbygsc-webfont.woff') format('woff');
+  font-family: 'pokemon';
+  src: url('../fonts/pkmn_rbygsc-webfont.woff2') format('woff2'),
+       url('../fonts/pkmn_rbygsc-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,7 +39,7 @@ section.backgroundBlender{
   left: 50%;
   top: 5%;
   transform: translate(-50%, -5%);
-  font-family: pkmn_rbygscregular;
+  font-family: pokemon, sans-serif;
   color: #2891c9;
   -webkit-text-stroke: 0.02em #40413C;
   position: relative;
@@ -259,7 +259,7 @@ section.schermOnder .menuButtons button{
   height: 4em;
   cursor: pointer;
   border-radius: 1.5em;
-  font-family: pkmn_rbygscregular;
+  font-family: pokemon, sans-serif;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
@@ -285,7 +285,7 @@ section.schermOnder .evolutionStones button {
   height: 4em;
   cursor: pointer;
   border-radius: 1.5em;
-  font-family: pkmn_rbygscregular;
+  font-family: pokemon, sans-serif;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
@@ -600,7 +600,7 @@ section.schermOnder .catchEevee{
   height: 4em;
   cursor: pointer;
   border-radius: 1.5em;
-  font-family: pkmn_rbygscregular;
+  font-family: pokemon, sans-serif;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
@@ -747,7 +747,7 @@ section.placesToTrain button.info{
   left: 75%;
   transform: translate(-75%, -85%);
   color: white;
-  font-family: pkmn_rbygscregular;
+  font-family: pokemon, sans-serif;
   font-weight: 600;
   background: #4f7040;
   background: linear-gradient(0deg, rgba(79, 112, 64, 1) 0%, rgba(71, 129, 48, 1) 39%, rgba(72, 144, 40, 1) 60%, rgba(88, 175, 40, 1) 100%);
@@ -776,7 +776,7 @@ section.schermOnder button.restart {
   height: 4em;
   cursor: pointer;
   border-radius: 1.5em;
-  font-family: pkmn_rbygscregular;
+  font-family: pokemon, sans-serif;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
