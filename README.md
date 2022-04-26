@@ -16,15 +16,13 @@ Mijn startniveau is: Rood
   <summary>Ik heb gekozen om de Eeveelutions uit te werken in een website. Hierbij wil ik door middel van HTML, CSS en JavaScript een leuke manier bedenken om duidelijk te maken wat de evoluties zijn van Eevee. </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/eersteIdee.PNG" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil mijn kennis van HTML en CSS opfrissen en meer leren efficiënter te werk te gaan.
+  - JavaScript heb ik wel eens gebruikt voor eerdere lessen, echter ken ik hier erg weinig van dus wil ik hier meer van leren en het ook toepassen in mijn website.
  
 </details>
 
@@ -34,28 +32,29 @@ Mijn startniveau is: Rood
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  JavaScript ben ik niet machtig, ik weinig in JS gedaan hiervoor maar ik wil wel veel uitproberen aangezien ik denk dat het de website goed zal doen en omdat het mij leuk lijkt om te leren.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Door video's te kijken en door op te zoeken wat toepasselijk is voor de huidige situatie leren hoe je bepaalde dingen kan oplossen.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Orginaliteit aangezien meer mensen hetzelfde onderwerp hebben.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb een DS gemaakt met de uitleg van het maken van de GameBoy. Hierdoor kan ik meer nieuwere achtergronden gebruiken aangezien het op een DS is. Ik heb toch voor de oudere knoppen gekozen voor een contrast en een speelsere look aangezien de typografie in de nieuwe games vrij saai is. 
 
 
 
   ### Bevinding 3:
-  ...
+  -
 
-</details>
+  #### oplossing:
+  -
 
 
 
@@ -63,13 +62,13 @@ Mijn startniveau is: Rood
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Feedback Isabelle - Veel aandacht geven aan de transities, vooral bij het evolueren. De DS is een leuk idee en zorg dat alles goed zichtbaar blijft in het kleine scherm.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Onderzoek doen hoe pokemons evolueren in de game en dit zo goed mogelijk toepassen met CSS en JS.
 
 
 
