@@ -35,7 +35,7 @@ section.backgroundBlender{
   opacity: .4;
 }
 
-.bericht {
+h1.bericht {
   left: 50%;
   top: 5%;
   transform: translate(-50%, -5%);
@@ -48,7 +48,7 @@ section.backgroundBlender{
   z-index: 3;
   display: none;
   text-align: center;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 
@@ -709,7 +709,7 @@ section.placesToTrain button.night {
 section.placesToTrain button.night:hover,
 section.placesToTrain button.night:focus {
   outline: none;
-  border: solid .2em #3e1a47;
+  border: solid .2em #5f2a6c;
 }
 
 section.placesToTrain button.day {
@@ -757,6 +757,137 @@ section.placesToTrain button.info:hover, section.placesToTrain button.info:focus
   border:#4f7040 .2em solid;
   background: #8cb878;
   outline: none;
+}
+
+.backgroundDonker{
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.7;
+  display: none;
+  transform: scale(5);
+}
+
+.placesToTrain.tutorial button:not(:nth-last-of-type(1)){
+  z-index: 10;
+}
+
+.placesToTrain p {
+  font-family: pokemon, sans-serif;
+  opacity: 0;
+  pointer-events: none;
+  color: #fff;
+  z-index: 11;
+  position: absolute;
+  text-align: center;
+  width: 155px;
+  border: .15em solid;
+  border-radius: 1.5em;
+  padding: .5em;
+  box-shadow: inset .1em .1em 0em #fff,
+    inset -.1em .1em 0em #fff,
+    inset .1em -.1em 0em #fff,
+    inset -.1em -.1em 0em #fff,
+    inset .15em .15em 0em #434343cc,
+    inset -.15em .15em 0em #434343cc,
+    inset .15em -.15em 0em #434343cc,
+    inset -.15em -.15em 0em #434343cc;
+}
+
+.placesToTrain p.zichtbaar{
+  opacity: 1;
+}
+
+.placesToTrain p:nth-of-type(1) {
+  left: 0%;
+  top: 0%;
+  transform: translate(-100%, -105%);
+  border-color: #3fbfff;
+}
+
+.placesToTrain p:nth-of-type(1)::before{
+  content: '';
+  width: 43%;
+  height: .2em;
+  background-color: #3fbfff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(90%, 300%) rotate(30deg);
+}
+
+.placesToTrain p:nth-of-type(2) {
+  left: 100%;
+  top: 0%;
+  transform: translate(0%, -100%);
+  border-color: #278a32;
+}
+
+.placesToTrain p:nth-of-type(2)::before{
+  content: '';
+  width: 40%;
+  height: .2em;
+  background-color: #278a32;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(-90%, 200%) rotate(-30deg);
+}
+
+.placesToTrain p:nth-of-type(3) {
+  left: 0%;
+  top: 50%;
+  transform: translate(-100%, -70%);
+  border-color: #5f2a6c;
+}
+
+.placesToTrain p:nth-of-type(3)::before{
+  content: '';
+  width: 28%;
+  height: .2em;
+  background-color: #5f2a6c;
+  position: absolute;
+  top: 60%;
+  right: 0;
+  transform: translate(103%, 0%);
+}
+
+.placesToTrain p:nth-of-type(4) {
+  left: 100%;
+  top: 50%;
+  transform: translate(0%, -65%);
+  border-color: #ffef3f;
+}
+
+.placesToTrain p:nth-of-type(4)::before{
+  content: '';
+  width: 28%;
+  height: .2em;
+  background-color: #ffef3f;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  transform: translate(-103%, 0%);
+}
+
+.placesToTrain p:nth-of-type(5) {
+  left: 0%;
+  top: 100%;
+  transform: translate(-100%, -40%);
+  border-color: #ff3fc9;
+}
+
+.placesToTrain p:nth-of-type(5)::before{
+  content: '';
+  width: 34%;
+  height: .2em;
+  background-color: #ff3fc9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(96%, 450%) rotate(-30deg);
 }
 
 section.schermOnder button.restart {

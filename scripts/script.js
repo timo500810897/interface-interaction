@@ -46,6 +46,11 @@ var eeveeEvolve = document.querySelector('.eeveeEvolving');
 var flareonEvolve = document.querySelector('.flareonEvolving');
 var jolteonEvolve = document.querySelector('.jolteonEvolving');
 var vaporeonEvolve = document.querySelector('.vaporeonEvolving');
+// Informatie
+var informatie = document.querySelector('.info');
+var backgroundDonker = document.querySelector('.backgroundDonker');
+
+
 // Restart
 var restart = document.querySelector('.restart');
 
@@ -73,6 +78,8 @@ nightLocation.addEventListener("click", locatedToNight);
 dayLocation.addEventListener("click", locatedToDay);
 mossLocation.addEventListener("click", locatedToMoss);
 snowLocation.addEventListener("click", locatedToSnow);
+// Informatie
+informatie.addEventListener("click", informatieShow);
 // Restart
 restart.addEventListener("click", restartEvolution);
 
@@ -120,7 +127,7 @@ function openTrainingScreen() {
 
 function showStones() {
     menuButtons.style.display = "none";
-    tekst.innerHTML = "Use a Thunder, Fire or Water -stone to evolve Eevee!";
+    tekst.innerHTML = "Use a stone to evolve Eevee!";
     evolutionStones.style.display = "block";
     console.log("stones");
 };
@@ -226,7 +233,7 @@ vaporeonEvolve.onanimationend = () => {
 
 
 function locatedToFairy () {
-    tekst.innerHTML = "Leveling Eevee while having a Fairy type move will cause Eevee to evolve into Sylveon!";
+    tekst.innerHTML = "Eevee is evolving into Sylveon!";
     schermTwee.style.backgroundImage = "url('../images/fairy.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     sylveonEvolve.classList.add("toSylveon");
@@ -242,7 +249,7 @@ sylveonEvolve.onanimationend = () => {
 }
 
 function locatedToNight () {
-    tekst.innerHTML = "Leveling Eevee at night with full happiness causes Eevee to evolve into Umbreon!";
+    tekst.innerHTML = "Eevee is evolving into Umbreon!";
     schermTwee.style.backgroundImage = "url('../images/night.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     umbreonEvolve.classList.add("toUmbreon");
@@ -258,7 +265,7 @@ umbreonEvolve.onanimationend = () => {
 }
 
 function locatedToDay () {
-    tekst.innerHTML = "Leveling Eevee during the day with full happiness causes Eevee to evolve into Espeon!";
+    tekst.innerHTML = "Eevee is evolving into Espeon!";
     schermTwee.style.backgroundImage = "url('../images/day.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     espeonEvolve.classList.add("toEspeon");
@@ -274,7 +281,7 @@ espeonEvolve.onanimationend = () => {
 }
 
 function locatedToMoss () {
-    tekst.innerHTML = "Leveling Eevee near the Moss Rock causes Eevee to evolve into Leafeon!";
+    tekst.innerHTML = "Eevee is evolving into Leafeon!";
     schermTwee.style.backgroundImage = "url('../images/moss.png')";
     eeveeEvolve.classList.add("evolveEevee");
     leafeonEvolve.classList.add("toLeafeon");
@@ -290,7 +297,7 @@ leafeonEvolve.onanimationend = () => {
 }
 
 function locatedToSnow () {
-    tekst.innerHTML = "Leveling Eevee near the Icy Rock causes Eevee to evolve into Glaceon!";
+    tekst.innerHTML = "Eevee is evolving into Glaceon!";
     schermTwee.style.backgroundImage = "url('../images/snow.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     glaceonEvolve.classList.add("toGlaceon");
@@ -304,6 +311,21 @@ glaceonEvolve.onanimationend = () => {
     restart.style.display = "block";
     console.log("glaceon_evolved");
 }
+
+
+
+
+// Informatie
+
+function informatieShow () {
+    var pUitlegs = document.querySelectorAll('p');
+    backgroundDonker.style.display = "block";
+    placesToTrain.classList.add("tutorial");
+    pUitlegs.forEach(pUitleg => {
+        pUitleg.classList.add("zichtbaar");
+    })
+}
+
 
 
 
