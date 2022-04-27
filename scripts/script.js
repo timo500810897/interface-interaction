@@ -149,7 +149,7 @@ function evolveToFlareon () {
     useFireStone.classList.add("fireStoneActive");
     thunderStone.style.display = "none";
     waterStone.style.display = "none";
-    schermTwee.style.backgroundImage = "url('../images/fire.png')";
+    schermTwee.style.backgroundImage = "url('images/fire.png')";
     console.log("flareon");
 }
 
@@ -176,7 +176,7 @@ function evolveToJolteon () {
     useThunderStone.classList.add("thunderStoneActive");
     fireStone.style.display = "none";
     waterStone.style.display = "none";
-    schermTwee.style.backgroundImage = "url('../images/thunder.png')";
+    schermTwee.style.backgroundImage = "url('images/thunder.png')";
     console.log("jolteon");
 }
 
@@ -203,7 +203,7 @@ function evolveToVaporeon () {
     useWaterStone.classList.add("waterStoneActive");
     fireStone.style.display = "none";
     thunderStone.style.display = "none";
-    schermTwee.style.backgroundImage = "url('../images/water.png')";
+    schermTwee.style.backgroundImage = "url('images/water.png')";
     console.log("vaporeon");
 }
 
@@ -234,7 +234,7 @@ vaporeonEvolve.onanimationend = () => {
 
 function locatedToFairy () {
     tekst.innerHTML = "Eevee is evolving into Sylveon!";
-    schermTwee.style.backgroundImage = "url('../images/fairy.png')"; 
+    schermTwee.style.backgroundImage = "url('images/fairy.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     sylveonEvolve.classList.add("toSylveon");
     placesToTrain.style.display = "none";
@@ -250,7 +250,7 @@ sylveonEvolve.onanimationend = () => {
 
 function locatedToNight () {
     tekst.innerHTML = "Eevee is evolving into Umbreon!";
-    schermTwee.style.backgroundImage = "url('../images/night.png')"; 
+    schermTwee.style.backgroundImage = "url('images/night.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     umbreonEvolve.classList.add("toUmbreon");
     placesToTrain.style.display = "none";
@@ -266,7 +266,7 @@ umbreonEvolve.onanimationend = () => {
 
 function locatedToDay () {
     tekst.innerHTML = "Eevee is evolving into Espeon!";
-    schermTwee.style.backgroundImage = "url('../images/day.png')"; 
+    schermTwee.style.backgroundImage = "url('images/day.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     espeonEvolve.classList.add("toEspeon");
     placesToTrain.style.display = "none";
@@ -282,7 +282,7 @@ espeonEvolve.onanimationend = () => {
 
 function locatedToMoss () {
     tekst.innerHTML = "Eevee is evolving into Leafeon!";
-    schermTwee.style.backgroundImage = "url('../images/moss.png')";
+    schermTwee.style.backgroundImage = "url('images/moss.png')";
     eeveeEvolve.classList.add("evolveEevee");
     leafeonEvolve.classList.add("toLeafeon");
     placesToTrain.style.display = "none";
@@ -298,7 +298,7 @@ leafeonEvolve.onanimationend = () => {
 
 function locatedToSnow () {
     tekst.innerHTML = "Eevee is evolving into Glaceon!";
-    schermTwee.style.backgroundImage = "url('../images/snow.png')"; 
+    schermTwee.style.backgroundImage = "url('images/snow.png')"; 
     eeveeEvolve.classList.add("evolveEevee");
     glaceonEvolve.classList.add("toGlaceon");
     placesToTrain.style.display = "none";
